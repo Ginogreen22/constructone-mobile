@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ConstructOne",
+    "slug": "constructone-mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.constructone.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.constructone.mobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1420a5a4-8ae9-41cb-b485-43358d406ddf"
+      }
+    }
+  }
+}
